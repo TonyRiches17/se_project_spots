@@ -1,21 +1,36 @@
 # Project 3: Spots
 
-### Overview  
+## Description
 
-* Intro  
-* Figma  
-* Images  
+This project is has the make up of a social media website, that enables you to upload a profile picture with accompanying bio information. You can upload pictures and solicit likes below them.
+
+### Technologies Used
+
+* HTML
+* CSS
+* Flexbox
+* Gridbox
+* Responsive Design  
+* Figma
+
+---
+
+<img src="./images/README/htmlandcss.png" alt="Picture of HTML and CSS logos" width="100" height="50"> **HTML, CSS, Flexbox, Gridbox**
   
-**Intro**
+This project was made utilizing a combination of coding with all of these principles. Using the "Grid" elements were a new process that proved challenging but necessary and rewarding in the end.  
+
+**Responsive Design**
+
+This project required functionality of the website at all resolutions to include more than 1400 pixels all the way down and adaptive to a screen size of 320 pixels.
   
-This project is made so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
-  
-**Figma**  
-  
+<img src="./images/README/figma.png" alt="Picture of Figma logo" width="50" height="50"> **Figma**
+
+This was the first experience working with Figma. Figma is a web based program that allows coders and designers to interact with each other for the purposes of collaborating on a project together. You can find the link to the Figma project below.
+
 * [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
-  
-**Images**  
-  
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!
+
+---
+
+### The link below will lead directly to the project online:
+
+[Deployment Link](https://tonyriches17.github.io/se_project_spots/index.html)
