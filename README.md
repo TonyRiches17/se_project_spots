@@ -34,3 +34,7 @@ This was the first experience working with Figma. Figma is a web based program t
 ### The link below will lead directly to the project online:
 
 [Deployment Link](https://tonyriches17.github.io/se_project_spots/index.html)
+
+### The link to the project's screencast is below:
+
+[Screencast](https://youtu.be/R2NzqLQzcD0)

@@ -14,6 +14,7 @@
 
 .card__title {
   margin: 12px 0 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -48,7 +49,7 @@
 
   .card__title {
     font-size: 16px;
-    line-height: 1;
+    line-height: 16px;
     max-width: 240px;
   }
 
