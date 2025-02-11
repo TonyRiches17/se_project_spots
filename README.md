@@ -8,6 +8,7 @@ This project is has the make up of a social media website, that enables you to u
 
 * HTML
 * CSS
+* JavaScript
 * Flexbox
 * Gridbox
 * Responsive Design  
@@ -18,6 +19,11 @@ This project is has the make up of a social media website, that enables you to u
 <img src="./images/README/htmlandcss.png" alt="Picture of HTML and CSS logos" width="100" height="50"> **HTML, CSS, Flexbox, Gridbox**
   
 This project was made utilizing a combination of coding with all of these principles. Using the "Grid" elements were a new process that proved challenging but necessary and rewarding in the end.  
+
+<!-- <img src="./images/README/java.png" alt="Picture of JavaScript logo" width="50" height="50"> **JavaScript**
+
+This project was made utilizing JavaScript. Add more descriptions of its uses. -->
+
 
 **Responsive Design**
 
