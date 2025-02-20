@@ -1,3 +1,5 @@
+<!-- Greetings. I'd hope to be able to use this comment line for any potential questions I might have about your feedback.
+Thanks in advance. :)  -->
 <!doctype html>
 <html lang="en">
   <head>
@@ -46,74 +48,15 @@
         </section>
         <section class="cards page__section">
           <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Picture of Val Thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Val Thorens</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/2-photo-by-ceiline-from-pexels.jpg"
-                alt="Picture of a Restaurant Terracd"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Restaurant terrace</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-                alt="Picture of an Outdoor Cafe"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Outdoor cafe</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/4-photo-by-maurice-laschet-from-pexels.jpg"
-                alt="Picture of a long bridge over a forest"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">
-                  A very long bridge, over the forest
-                </h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-                alt="Picture of a tunnel"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Tunnel with morning light</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
-            <li class="card">
-              <img
-                src="./images/6-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="Picture of a house in the mountains"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">Mountain house</h2>
-                <button type="button" class="card__like-button"></button>
-              </div>
-            </li>
+            <template id="card-template">
+              <li class="card">
+                <img src="" alt="" class="card__image" />
+                <div class="card__content">
+                  <h2 class="card__title"></h2>
+                  <button type="button" class="card__like-button"></button>
+                </div>
+              </li>
+            </template>
           </ul>
         </section>
       </main>
@@ -125,11 +68,23 @@
           <button type="submit" class="modal__close-button"></button>
           <h2 class="modal__title">Edit profile</h2>
           <form name="edit-profile" class="modal__form">
-            <label for="name" class="modal__label">Name
-              <input id="name" type="text" placeholder="Type your name" class="modal__input">
+            <label for="profile-name-input" class="modal__label"
+              >Name
+              <input
+                id="profile-name-input"
+                type="text"
+                placeholder="Type your name"
+                class="modal__input"
+              />
             </label>
-            <label for="description" class="modal__label">Description
-              <input id="description" type="text" placeholder="Describe yourself" class="modal__input">
+            <label for="profile-description-input" class="modal__label"
+              >Description
+              <input
+                id="profile-description-input"
+                type="text"
+                placeholder="Describe yourself"
+                class="modal__input"
+              />
             </label>
             <button type="submit" class="modal__submit-button">Save</button>
           </form>

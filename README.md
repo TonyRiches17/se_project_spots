@@ -20,9 +20,9 @@ This project is has the make up of a social media website, that enables you to u
   
 This project was made utilizing a combination of coding with all of these principles. Using the "Grid" elements were a new process that proved challenging but necessary and rewarding in the end.  
 
-<!-- <img src="./images/README/java.png" alt="Picture of JavaScript logo" width="50" height="50"> **JavaScript**
+<img src="./images/README/java.png" alt="Picture of JavaScript logo" width="50" height="50"> **JavaScript**
 
-This project was made utilizing JavaScript. Add more descriptions of its uses. -->
+This project was made utilizing JavaScript. Several functions and variables were used to execute actionable features. Also, DOM was used significantly in merging these actionable features to the HTML.
 
 
 **Responsive Design**
