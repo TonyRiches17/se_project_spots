@@ -50,6 +50,7 @@ Thanks in advance. :)  -->
           <ul class="cards__list">
             <template id="card-template">
               <li class="card">
+                <button type="button" class="card__delete-button"></button>
                 <img src="" alt="" class="card__image" />
                 <div class="card__content">
                   <h2 class="card__title"></h2>
@@ -65,7 +66,7 @@ Thanks in advance. :)  -->
       </footer>
       <div id="edit-modal" class="modal">
         <div class="modal__container">
-          <button type="submit" class="modal__close-button"></button>
+          <button type="button" class="modal__close-button"></button>
           <h2 class="modal__title">Edit profile</h2>
           <form name="edit-profile" class="modal__form">
             <label for="profile-name-input" class="modal__label"
@@ -88,6 +89,45 @@ Thanks in advance. :)  -->
             </label>
             <button type="submit" class="modal__submit-button">Save</button>
           </form>
+        </div>
+      </div>
+      <div id="add-card-modal" class="modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-button"></button>
+          <h2 class="modal__title">New Post</h2>
+          <form id="add-card-form" class="modal__form">
+            <label for="add-card-link-input" class="modal__label"
+              >Image link
+              <input
+                id="add-card-link-input"
+                name="image"
+                type="url"
+                placeholder="Paste a link to the picture"
+                class="modal__input"
+              />
+            </label>
+            <label for="add-card-name-input" class="modal__label"
+              >Caption
+              <input
+                id="add-card-name-input"
+                name="name"
+                type="text"
+                placeholder="Type your caption"
+                class="modal__input"
+              />
+            </label>
+            <button type="submit" class="modal__submit-button">Save</button>
+          </form>
+        </div>
+      </div>
+      <div class="modal" id="preview-modal">
+        <div class="modal__container modal__container_type_preview">
+          <button
+            type="button"
+            class="modal__close-button modal__close_type_preview"
+          ></button>
+          <img class="modal__image" src="#" alt="" />
+          <p class="modal__caption"></p>
         </div>
       </div>
     </div>
