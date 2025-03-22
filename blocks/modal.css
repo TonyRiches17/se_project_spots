@@ -105,6 +105,7 @@
   font-size: 16px;
   line-height: 17.6px;
   color: rgba(33, 33, 33, .7);
+
 }
 
 .modal__input {
@@ -118,8 +119,16 @@
   cursor: pointer;
 }
 
+.modal__input_type_error {
+  border: 1px solid rgba(255, 0, 0, 0.6);
+}
+
 .modal__input:hover {
   border: 1px solid rgba(33, 33, 33, 1);
+}
+
+.modal__error {
+  color: rgba(255, 0, 0, 0.7);
 }
 
 input::placeholder {
@@ -143,6 +152,10 @@ input::placeholder {
 
 .modal__submit-button:hover {
   background-color: rgba(33, 33, 33, .8);
+}
+
+.modal__submit-button_type_error {
+  background-color: rgba(33, 33, 33, 0.5);
 }
 
 @media screen and (max-width: 900px) {
