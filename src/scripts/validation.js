@@ -74,4 +74,4 @@ setEventListeners(formEl, config);
 });
 };
 
-enableValidation(settings);
+export {settings, resetValidation, enableValidation, disableButton};
