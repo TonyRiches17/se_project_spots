@@ -234,7 +234,7 @@ function handleAddCardFormSubmit(evt) {
   evt.preventDefault();
   setButtonText(evt.submitter, true);
   api
-    .editCardInfo({
+    .addCard({
       link: addCardModalLinkInput.value,
       name: addCardModalNameInput.value,
     })
@@ -265,6 +265,8 @@ function handleAvatarFormSubmit(evt) {
     .then((data) => {
       profileAvatar.src = data.avatar;
       profileAvatar.alt = `Avatar picture for ${data.name}'s profile`;
+      avatarFormElement.reset();
+      disableButton(evt.submitter, settings);
       closeModal(avatarModal);
     })
     .catch(console.error)
