@@ -90,6 +90,7 @@ const deleteModalPrompt = document.querySelector("#delete-modal");
 const deleteModalCloseButton = deleteModalPrompt.querySelector(
   ".modal__close-button"
 );
+const deleteModalCancelButton = deleteModalPrompt.querySelector(".modal__submit-button_cancel")
 
 let selectedCard;
 let selectedCardId;
@@ -200,6 +201,10 @@ function handleRemoveSubmit(evt) {
       setButtonText(evt.submitter, false, "Deleting...", "Delete");
     });
 }
+
+deleteModalCancelButton.addEventListener("click", () => {
+  closeModal(deleteModalPrompt);
+})
 
 function handleRemoveCard(cardElement, cardId) {
   selectedCard = cardElement;
