@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/TonyRiches17/se_project_spots/issues"
   },
-  "homepage": "https://github.com/TonyRiches17/se_project_spots#readme",
+  "homepage": "https://github.com/TonyRiches17/se_project_spots/",
   "dependencies": {
     "core-js": "3.23.5",
     "jquery": "^3.7.1"
