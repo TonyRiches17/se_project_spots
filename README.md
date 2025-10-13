@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is has the make up of a social media website, that enables you to upload a profile picture with accompanying bio information. You can upload pictures and solicit likes below them.
+This project has the make up of a social media website, that enables you to upload a profile picture with accompanying bio information. You can upload pictures and solicit likes below them.
 
 ### Technologies Used
 
@@ -34,6 +34,9 @@ This project required functionality of the website at all resolutions to include
 This was the first experience working with Figma. Figma is a web based program that allows coders and designers to interact with each other for the purposes of collaborating on a project together. You can find the link to the Figma project below.
 
 * [Link to the project on Figma](https://www.figma.com/file/BBNm2bC3lj8QQMHlnqRsga/Sprint-3-Project-%E2%80%94-Spots?type=design&node-id=2%3A60&mode=design&t=afgNFybdorZO6cQo-1)
+
+## Conclusion
+In conclusion, this project successfully allows you to modify your avatar picture and name. It allows you to add a link to a picture that you would like displayed, and it allows you to like or unlike those pictures. As a future implentation to this website, a backend, and a registration/login process shall be created to attach a token to the user in logging in and giving them the ability to like and unlike the pictures without interference from other users.
 
 ---
 
